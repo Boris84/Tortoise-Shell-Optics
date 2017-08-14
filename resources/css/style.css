@@ -1,0 +1,39 @@
+html {
+ font-size: 18px;
+ line-height: 1.4;
+ font-family: Helvetica;
+}
+
+.container {
+width: 960px;
+margin: auto;
+}
+
+.top-banner .container {
+background-color: cadetblue;
+align-items: center;
+margin-top: 1rem;
+font-size: 1rem;
+display: flex;
+color: white;
+}
+
+.logo {
+height: 1.5rem;
+margin-left: 2rem;
+margin-right: 1rem;
+padding-bottom: 1rem;
+}
+
+.container ul {
+display: inline-flex;
+list-style: none;
+}
+
+.container li {
+margin: 1rem 2rem;
+}
+
+.top-banner span {
+margin-left: 2rem;
+}
