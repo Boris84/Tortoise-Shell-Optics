@@ -1,7 +1,7 @@
 html {
 font-size: 18px;
 line-height: 1.4;
-font-family: Helvetica;	
+font-family: Helvetica;
 }
 
 .container {
@@ -12,7 +12,7 @@ margin: auto;
 background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
 background-size: cover;
 background-position: center;
-height: 28.5rem;
+height: 30rem;
 }
 
 .top-banner .container {
@@ -56,14 +56,25 @@ padding-right: 1rem;
 }
 
 .dljs {
-letter-spacing: 1px;
 background-color: white;
+padding: 1.5rem 5rem;
+letter-spacing: 1px;
 text-align: center;
-line-height: 1.2;
-font-size: 2rem;
+margin-left: 22.5rem;
 font-weight: bold;
 margin-top: 10rem;
-margin-left: 25rem;
-padding: 1.5rem 2rem;
+line-height: 1.2;
+font-size: 2rem;
 width: 50%;
 }
+
+.comp img { 
+margin-top: 3rem;
+margin-bottom:1.5rem;
+height: 4.4rem;
+width: 3.5rem;
+}
+.custom img {
+height: 2.5rem;
+}
+
