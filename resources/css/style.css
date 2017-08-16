@@ -110,23 +110,23 @@ width: 5rem;
 
 .narrative .container {
 display: flex;
-justify-content: space-between;
 }
 
-.philosophy span {
+.header {
+width: 100%;
+font-weight: bold;
+}
+
+.header span {
 background-color: cadetblue;
 font-family: Helvetica;
-font-weight: bold;
 padding: 0.5rem 1.25rem;
 font-size: 1rem;
-
+width: 30rem;
 }
 
-.philosophy p {
-margin-top: 1rem;
-}
-
-
-.appointments {
-
+.header p {
+margin-top: 1.7rem;
+word-spacing: 3px;
+line-height: 1.2rem;
 }
