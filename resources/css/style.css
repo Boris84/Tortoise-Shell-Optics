@@ -68,43 +68,39 @@ font-size: 2rem;
 width: 50%;
 }
 
-.services p {
-width: 90%;
+.services {
+display: flex;
+justify-content: center;
+margin-bottom: 3rem;
 }
 
-.comp {
+.service {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+text-align: center;
 height: 8rem;
-width: 11%;
-margin-top: 3rem;
-margin-bottom: 3rem;
-text-align: center;
-}
-
-.comp img { 
-margin-bottom: 1.3rem;
-height: 4.3rem;
-width: 3.5rem;
-}
-
-.custom {
-text-align: center;
-margin-top: 3rem;
-margin-right: 0.6rem;
-}
-
-.custom img {
-margin-bottom: 3rem;
-height: 2.5rem;
+margin: 3rem;
 width: 5rem;
 }
 
-.fast {
-margin-top: 3rem;	
-margin-right: 9rem;	
+.service img {
+margin-bottom: 1rem;	
 }
 
-.fast img {
-margin-bottom: 2.5rem;
+.paper {
+margin-top: 3rem;
+width: 3.5rem;
+}
+
+.ruler {
+margin-top: 3rem;
+width: 5rem;
+}
+
+.truck {
+margin-top: 3rem;
 width: 5rem;
 }
 
@@ -117,12 +113,13 @@ width: 100%;
 font-weight: bold;
 }
 
-.header span {
+.header div {
 background-color: cadetblue;
 font-family: Helvetica;
 padding: 0.5rem 1.25rem;
 font-size: 1rem;
-width: 30rem;
+color: white;
+width: 10rem;
 }
 
 .header p {
