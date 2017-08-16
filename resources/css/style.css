@@ -68,13 +68,65 @@ font-size: 2rem;
 width: 50%;
 }
 
-.comp img { 
-margin-top: 3rem;
-margin-bottom:1.5rem;
-height: 4.4rem;
-width: 3.5rem;
-}
-.custom img {
-height: 2.5rem;
+.services p {
+width: 90%;
 }
 
+.comp {
+height: 8rem;
+width: 11%;
+margin-top: 3rem;
+margin-bottom: 3rem;
+text-align: center;
+}
+
+.comp img { 
+margin-bottom: 1.3rem;
+height: 4.3rem;
+width: 3.5rem;
+}
+
+.custom {
+text-align: center;
+margin-top: 3rem;
+margin-right: 0.6rem;
+}
+
+.custom img {
+margin-bottom: 3rem;
+height: 2.5rem;
+width: 5rem;
+}
+
+.fast {
+margin-top: 3rem;	
+margin-right: 9rem;	
+}
+
+.fast img {
+margin-bottom: 2.5rem;
+width: 5rem;
+}
+
+.narrative .container {
+display: flex;
+justify-content: space-between;
+}
+
+.philosophy span {
+background-color: cadetblue;
+font-family: Helvetica;
+font-weight: bold;
+padding: 0.5rem 1.25rem;
+font-size: 1rem;
+
+}
+
+.philosophy p {
+margin-top: 1rem;
+}
+
+
+.appointments {
+
+}
