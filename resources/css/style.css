@@ -12,7 +12,7 @@ margin: auto;
 .main-banner {
 background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
 background-size: cover;
-background-position: centerq;
+background-position: center;
 height: 30rem;
 }
 
