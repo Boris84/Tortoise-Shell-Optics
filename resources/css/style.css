@@ -153,22 +153,27 @@ word-spacing: 0.1rem;
 @media only screen and (max-width: 1024px) {
 
 .container {
-	width: 100%;
+width: 920px;
 }
 
 .top-banner .container {
-	top: 0;
-	margin-bottom: 5rem;
+top: 0;
+width: 100%;
+margin-bottom: 5rem;
 }
 
 .main-banner {
-	height: 22rem;
+height: 22rem;
 }
 
 .dljs {
-	padding: 0.75rem 4rem;
-	font-size: 1.33rem;
-	margin-right: 2rem;
-
+padding: 0.75rem 4rem;
+font-size: 1.33rem;
+margin-right: 2rem;
 }
+  
+ footer.container {
+width: 100%;
+}
+
 }
