@@ -22,6 +22,7 @@ height: 30rem;
 /* Top-Banner */
 .top-banner .container {
 background-color: cadetblue;
+margin-bottom: 10rem;
 align-items: center;
 position: relative;
 font-size: 1rem;
@@ -53,19 +54,23 @@ padding-left: 2rem;
 padding-right: 1rem;
 }
 /*Image-Banner */
+.image-banner {
+margin-left: 3rem;	
+}
 .dljs {
 display: flex;
 align-items: center;
 background-color: white;
 padding: 1.5rem 5rem;
 letter-spacing: 1px;
-margin-left: 21rem;
+margin-left: 18rem;
 font-weight: bold;
-margin-top: 10rem;
 line-height: 1.2;
 font-size: 2rem;
-width: 47%;
 height: 4rem;
+}
+.dljs div {
+width: 100%;
 }
 /*Header /*Main-Banner */
 
@@ -141,4 +146,29 @@ padding-right: 1rem;
 }
 .copyright {
 word-spacing: 0.1rem;
+}
+
+
+/*Media Queries Tablet 1024px */
+@media only screen and (max-width: 1024px) {
+
+.container {
+	width: 100%;
+}
+
+.top-banner .container {
+	top: 0;
+	margin-bottom: 5rem;
+}
+
+.main-banner {
+	height: 22rem;
+}
+
+.dljs {
+	padding: 0.75rem 4rem;
+	font-size: 1.33rem;
+	margin-right: 2rem;
+
+}
 }
