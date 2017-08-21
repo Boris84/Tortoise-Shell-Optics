@@ -104,9 +104,11 @@ width: 5rem;
 /*Narrative */
 .narrative .container {
 display: flex;
+justify-content: space-between;
 }
-.text {
-display: inline-block;
+.text { 
+width: 35%;
+display: block;
 font-weight: bold;
 margin-right: 5%;
 }
@@ -119,7 +121,6 @@ color: white;
 width: 10rem;
 }
 .text p {
-width: 55%;
 margin-top: 1rem;
 word-spacing: 3px;
 line-height: 1.4rem;
@@ -180,6 +181,10 @@ justify-content: center;
 .text {
 width: 35%;
 }
+
+.text p {
+padding-right: 22%;
+}
   
  footer.container {
 width: 100%;
@@ -187,4 +192,8 @@ width: 100%;
 
 }
 
-@media only screen and (max-width: )
+/*Media Queries Mobile 470px */
+@media only screen and (max-width: 470px) {
+
+
+}
