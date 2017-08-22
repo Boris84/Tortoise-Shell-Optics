@@ -26,8 +26,8 @@ margin-bottom: 10rem;
 align-items: center;
 position: relative;
 font-size: 1rem;
-display: flex;
 height: 3.1rem;
+display: flex;
 color: white;
 top: 1.8rem;
 }
@@ -160,7 +160,9 @@ word-spacing: 0.1rem;
 /*Media Queries Tablet 1024px */
 @media only screen and (max-width: 1024px) {
 
-
+.top-banner span {
+width: 100%;
+}
 .top-banner .container {
 top: 0;
 width: 100%;
@@ -219,12 +221,10 @@ overflow: hidden;
 }
 
 .top-banner .container {
-
 margin-bottom: 9rem;
 }
 
-
-.top-banner .container ul {
+.top-banner .container ul, .top-banner span {
 display: none;
 }
 
