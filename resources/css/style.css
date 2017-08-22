@@ -180,6 +180,7 @@ margin-right: 2rem;
 .narrative .container {
 display: flex;
 justify-content: center;
+
 }
 
 .text {
@@ -188,6 +189,11 @@ width: 35%;
 
 .text p {
 padding-right: 22%;
+}
+
+.appointments {
+position: relative;
+left: 0.1%;
 }
   
  footer.container {
