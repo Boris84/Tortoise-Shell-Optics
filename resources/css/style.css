@@ -58,15 +58,13 @@ display: none;
 }
 /*Image-Banner */
 .image-banner {
-display: flex;
-align-content: left;
-margin-left: 3rem;
-width: 35%;
+margin-left: 2rem;
 }
 .dljs {
 display: flex;
 align-items: center;
 background-color: white;
+margin-left: 18rem;
 padding: 1.5rem 5rem;
 letter-spacing: 1px;
 font-weight: bold;
@@ -202,6 +200,7 @@ margin-right: 2rem;
 
 .dljs div {
 width: 100%;
+margin-left: 2rem;
 }
 
 .narrative .container {
@@ -287,8 +286,8 @@ display: block;
 
 .image-banner {
 position: relative;
+margin-left: 0;
 bottom: 0.5rem;
-right: 3rem;
 width: 100%;
 }
 
