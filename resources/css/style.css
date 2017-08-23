@@ -61,7 +61,7 @@ display: none;
 margin-left: 2rem;
 }
 .dljs {
-display: flex;
+display: inline-flex;
 align-items: center;
 background-color: white;
 margin-left: 18rem;
@@ -186,7 +186,6 @@ display: none;
 }
 
 .image-banner .container {
-position: relative;
 overflow: hidden;
 width: 100%;
 }
@@ -301,21 +300,28 @@ width: 100%;
 }
 
 .services {
-display: flex;
-overflow: hidden;
+display: block;
 }
 
 .service {
+display: block;
+}
+
+.narrative .container {
 display: inline-block;
 
 }
 
-
-
-
-
-.philosophy {
-
+.text {
+display: block;
 }
 
+
+.text.philosophy {
+left: 0;
+}
+
+.text div {
+width: 100%;
+}
 }
