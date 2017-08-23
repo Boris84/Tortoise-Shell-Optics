@@ -231,6 +231,29 @@ width: 100%;
 
 }
 
+
+/*Media Queries Tablet 780px */
+@media only screen and (max-width: 780px)  {
+
+.container {
+width: 100%;
+}
+
+.top-banner .mobile-nav.container {
+ display: flex;
+ text-align: left;
+}
+
+.top-banner .container ul, .top-banner span {
+display: none;
+}
+
+ul.mobile-nav.container  {
+display: block;
+}
+
+}
+
 /*Media Queries Mobile 470px */
 @media only screen and (max-width: 470px) {
 
