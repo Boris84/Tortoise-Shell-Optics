@@ -258,6 +258,7 @@ font-size: 1.33rem;
 padding: 0.75rem 4rem;
 overflow: hidden;
 margin-right: 2rem;
+min-width: 170px;
 }
 
 .dljs div {
@@ -334,7 +335,7 @@ font-size: 0.77rem;
 }
 
 .truck {
-
+	padding-bottom: 0px;
 }
 
 
