@@ -60,14 +60,15 @@ display: none;
 .image-banner {
 overflow: hidden;
 margin-left: 2rem;
+position: relative;
 }
 .dljs {
 display: inline-flex;
 align-items: center;
 background-color: white;
-margin-left: 18rem;
 padding: 1.5rem 5rem;
 letter-spacing: 1px;
+position: absolute;
 font-weight: bold;
 line-height: 1.2;
 font-size: 2rem;
