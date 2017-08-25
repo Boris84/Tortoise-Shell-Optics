@@ -58,7 +58,6 @@ display: none;
 }
 /*Image-Banner */
 .image-banner {
-overflow: hidden;
 margin-left: 2rem;
 position: relative;
 }
@@ -73,6 +72,7 @@ font-weight: bold;
 line-height: 1.2;
 font-size: 2rem;
 height: 4rem;
+right: 10rem;
 }
 .dljs div {
 width: 100%
