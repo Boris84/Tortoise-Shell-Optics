@@ -72,7 +72,7 @@ font-weight: bold;
 line-height: 1.2;
 font-size: 2rem;
 height: 4rem;
-right: 10rem;
+right: 27.5rem;
 }
 .dljs div {
 width: 100%
@@ -196,7 +196,7 @@ width: 100%;
 overflow: hidden;
 padding: 0.75rem 4rem;
 font-size: 1.33rem;
-margin-right: 2rem;
+right: 1rem;
 }
 
 .dljs div {
@@ -259,7 +259,7 @@ display: block;
 font-size: 1.33rem;
 padding: 0.75rem 4rem;
 overflow: hidden;
-margin-right: 2rem;
+margin-right: 0.5rem;
 }
 
 .dljs div {
