@@ -58,6 +58,7 @@ display: none;
 }
 /*Image-Banner */
 .image-banner {
+overflow: hidden;
 margin-left: 2rem;
 }
 .dljs {
@@ -258,7 +259,6 @@ font-size: 1.33rem;
 padding: 0.75rem 4rem;
 overflow: hidden;
 margin-right: 2rem;
-min-width: 170px;
 }
 
 .dljs div {
@@ -320,6 +320,7 @@ flex-direction: column;
 }
 
 .service {
+justify-content: space-evenly;
 margin-top: 1.54rem;
 margin-bottom: 1.54rem;
 margin-left: 45%;
@@ -334,8 +335,16 @@ margin-left: 45%;
 font-size: 0.77rem;
 }
 
+
+.paper {
+margin-bottom: 1rem;
+}
+.ruler {
+margin-bottom: 1rem;
+
+}
 .truck {
-	padding-bottom: 0px;
+margin-bottom: 1rem;
 }
 
 
