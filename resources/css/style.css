@@ -72,7 +72,7 @@ font-weight: bold;
 line-height: 1.2;
 font-size: 2rem;
 height: 4rem;
-right: 27.5rem;
+right: 18.5rem;
 }
 .dljs div {
 width: 100%
@@ -307,12 +307,14 @@ width: 100%;
 
 .dljs {
 padding-bottom: 1rem;
+text-align: center;
+position: relative;
 padding-top: 1rem;
 font-weight: bold;
 font-size: 1rem;
-margin-left: 0;
 height: 1rem;
 width: 100%;
+right: 0;
 }
 
 .services {
